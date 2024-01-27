@@ -1,0 +1,16 @@
+{
+    "name": "codebygs/e-st",
+    "description": "Reader for retrieving consumption data from E-ST portal",
+    "require": {
+        "ext-json": "*",
+        "symfony/dom-crawler": "^6",
+        "symfony/http-client": "^6",
+        "symfony/css-selector": "^6",
+        "guzzlehttp/guzzle": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "EST\\": "src/"
+        }
+    }
+}
