@@ -1,6 +1,7 @@
 {
     "name": "codebygs/e-st",
     "description": "Reader for retrieving consumption data from E-ST portal",
+    "license": "MIT",
     "require": {
         "ext-json": "*",
         "symfony/dom-crawler": "^6",
